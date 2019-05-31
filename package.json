@@ -2,6 +2,15 @@
   "name": "js-showcase-jest",
   "version": "1.0.0",
   "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest test"
+  },
   "author": "Michael Clausen <ecodeering@gmail.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
